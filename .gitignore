@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+.env
+
+git rm --cached .DS_Store
+git add .
+git commit -m "Add project files"
+git push
